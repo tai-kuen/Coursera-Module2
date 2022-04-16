@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  font-family: Comic Sans MS;
+}
+
+.container {
+    width: 100%;
+
+}
+
+.sec {
+    background-color: rgb(192, 187, 187);
+    border: 1px solid black;
+    height: 300px;
+    position: relative;
+    margin:40px 20px;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+h1 {
+  margin: 40px;
+  text-align: center;
+}
+
+.sstitle {
+    margin:0;
+    width: 120px;
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    top:0;
+    right:0;
+    
+}
+
+.tt1 {
+    background-color: rgb(201, 110, 110);
+}
+.tt2 {
+    background-color: rgb(133, 133, 238);
+}
+.tt3 {
+    background-color: rgb(194, 194, 87);
+}
+
+p {
+  color: black;
+  padding: 20px 10px 10px 10px;
+}
+
+
+@media (min-width: 992px) {
+    .section {
+        width:33.33%;
+        float:left;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .ss1,.ss2 {
+    width: 50%;
+    float: left;
+  }
+  .ss3 {
+    width: 100%;
+    clear: left;
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    width: 100%;
+  }
+}
